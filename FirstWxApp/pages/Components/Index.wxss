@@ -1,0 +1,42 @@
+/* Index.wxss */
+
+/* 全局view */
+.index {
+  background-color: #FBF9FE;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+}
+
+.head {
+  padding: 80rpx;
+    line-height: 1.5;
+  /* text-align: center; */
+  color: red;
+  font-size: 15px;
+  /* margin-top: 20px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

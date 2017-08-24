@@ -1,13 +1,29 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/TestPages/TestPage"
+    "pages/API/Index",
+    "pages/Components/Index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#0096FF",
     "navigationBarTitleText": "小程序",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "red",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/Components/Index",
+      "text": "组件",
+      "iconPath": "image/icon_component.png",
+      "selectedIconPath": "image/icon_component_HL.png"
+    },
+    {
+      "pagePath": "pages/API/Index",
+      "text": "接口",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png"
+    }]
   }
 }

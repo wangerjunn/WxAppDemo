@@ -1,7 +1,0 @@
-/* TestPage.wxss */
-.classname-item {
-  color: red;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10;
-}

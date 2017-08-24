@@ -1,26 +1,18 @@
-// TestPage.js
+// Index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array:[1,2,3,4,6,7,9],
-    zero:0,
-    newArray:[
-      {name:'小'},
-      {name:'二'},
-      {name:'郎'}
-    ]
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '设置导航栏标题',
-    })
+  
   },
 
   /**
@@ -69,8 +61,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-      wx.showToast({
-        title: '点击右上角分享',
-      })
+  
   }
 })
