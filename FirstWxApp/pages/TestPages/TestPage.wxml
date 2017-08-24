@@ -1,0 +1,25 @@
+
+//for循环
+<view wx:for="{{array}}" wx:for-item="itemName" class="classname-item"> {{itemName}} </view>
+
+<!-- 列表渲染 -->
+
+  <!-- wx:for
+  在组件上使用 wx:for 控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。
+  
+  wx:for
+   -->
+
+<text> wx:for{{'\n'}}</text>
+<text>在组件上使用 wx:for 控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。{{'\n'}}</text>
+
+<text wx:for="{{newArray}}" wx:for-item="item">{{item.name+'\n'}}</text>
+
+
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-index="idx" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{j <= idx+1}}">
+      {{idx+1}} * {{j}} = {{(idx+1) * j}}
+    </view>
+  </view>
+</view>
