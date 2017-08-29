@@ -14,7 +14,27 @@
   /* text-align: center; */
   color: red;
   font-size: 15px;
+  background-color: white;
   /* margin-top: 20px; */
+}
+
+.body {
+  font-size: 15px;
+  color: red;
+}
+
+.contentView {
+  height: 80rpx;
+  padding: 15rpx 30rpx;
+  /* margin-top: 10rpx; */
+}
+
+.title {
+  padding: 15rpx 30rpx;
+}
+.imageView {
+  height: 32rpx;
+  widows: 32rpx;
 }
 
 
