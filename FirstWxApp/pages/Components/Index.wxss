@@ -2,44 +2,52 @@
 
 /* 全局view */
 .index {
-  background-color: #FBF9FE;
-  height: 100%;
+  background-color: #F1F2F3;
   width: 100%;
-  font-size: 14px;
+  height: 100%;
 }
 
 .head {
-  padding: 80rpx;
-    line-height: 1.5;
-  /* text-align: center; */
-  color: red;
-  font-size: 15px;
-  background-color: white;
-  /* margin-top: 20px; */
+  padding: 80rpx 5%; 
+}
+
+.head-title {
+  font-size: 18px;
+  color: black;
+  flex: 1;
+}
+
+.head-content {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #999999;
+  background-color: yellow;
 }
 
 .body {
+  margin-top: 20rpx; 
+  padding: 0rpx 30rpx;
+
+}
+
+.bd-contentView {
+  background-color: orange;
+  color: white;
   font-size: 15px;
-  color: red;
+  height: 60rpx;
+  padding: 20rpx 30rpx;
+  margin-top: 20rpx;
+  border-radius: 8rpx;
 }
 
-.contentView {
-  height: 80rpx;
-  padding: 15rpx 30rpx;
-  /* margin-top: 10rpx; */
+.bd-con-title { 
+  flex: 1;
 }
-
-.title {
-  padding: 15rpx 30rpx;
-}
-.imageView {
+.bd-con-img {
+  width: 32rpx;
   height: 32rpx;
-  widows: 32rpx;
+  margin-left: 10rpx;
 }
-
-
-
-
 
 
 
